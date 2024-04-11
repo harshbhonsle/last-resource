@@ -8,10 +8,12 @@ import ai from '../assets/ai.png';
 import toc from '../assets/toc.png';
 import database from '../assets/database.png';
 import coa from '../assets/coa.png';
+
 const subjects = [
     {
         name : 'Differenital Equations',
         iconRef : differentialEquations,
+        
 
 
     },
