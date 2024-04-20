@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
  const Navbar=() =>{
   return (
-    <div className="absolute top-0 left-0 flex w-full justify-between px-32 py-5 bg-[#F38181] border-b-4 border-[#FCE38A]">
+    <div className="absolute top-0 left-0 z-10 flex w-full justify-between px-32 py-5 bg-[#F38181] border-b-4 border-[#FCE38A]">
     <div >
       <h1 className="text-3xl font-bold "><Link to="/">Last Resource</Link></h1>
     </div>

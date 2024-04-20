@@ -18,7 +18,7 @@ const subjects = [
 
     },
     {
-        name : 'Computer Netwrok',
+        name : 'Computer Network',
         iconRef : computerNetwork
 
     },
