@@ -9,55 +9,73 @@ import {
   toc,
   database,
   coa,
+  study_cat,
+  computer_networks,
+  calculus_and_statistica_analysis,
+  basics_of_electronics_engineering,
+  cyber_security,
+  artificial_intelligence,
+  computer_organization_architecture,
+  theory_of_computation,
+  database_management_system,
 } from "../assets/assets";
 
 const subjects = [
   {
     name: 'Differenital Equations',
     iconRef: differentialEquations,
+    bgImg: study_cat,
 
 
 
   },
   {
     name: 'Computer Network',
-    iconRef: computerNetwork
+    iconRef: computerNetwork,
+    bgImg: computer_networks,
 
   },
   {
-    name: 'Calculus and Statistical Analysis',
+    name: 'Calculus & Statistical Analysis',
     iconRef: calculus,
+    bgImg: calculus_and_statistica_analysis,
 
 
   },
   {
     name: 'Basics of Electronics Engineering',
     iconRef: electronics,
+    bgImg: basics_of_electronics_engineering,
 
   },
   {
     name: 'Cyber Security',
     iconRef: cyberSecurity,
+    bgImg: cyber_security,
 
   },
   {
     name: 'Artificial Intelligence',
     iconRef: ai,
+    bgImg: artificial_intelligence,
 
   },
   {
-    name: 'COA',
+    name: 'Computer Organization & Architecture',
     iconRef: coa,
+    bgImg: computer_organization_architecture,
 
   },
   {
-    name: 'TOC',
+    name: 'Theory Of Computation',
     iconRef: toc,
+    bgImg: theory_of_computation,
 
   },
   {
-    name: 'DBMS',
+    name: 'Database Management System',
     iconRef: database,
+    bgImg: database_management_system,
 
   },
 
