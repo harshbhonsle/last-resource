@@ -15,9 +15,9 @@ const Home = () => {
           alt="Banner Image"
           className="w-3/4 "
         />
-        
+
         <div className="w-1/2 font-light text-2xl text-center">
-          Website bana rahe hai pata nahi kyu but bna rahe hai. Main aur mera ek
+          Website bana rahe hai pata nahi kyu but bna rahe hai. Main aur mera 2
           dost. Lorem Ipsum blah blah blah blah.
         </div>
       </div>
