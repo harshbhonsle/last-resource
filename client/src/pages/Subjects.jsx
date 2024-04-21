@@ -87,7 +87,7 @@ const Subjects = () => {
   return (
     <div className=" h-screen pt-20 ">
       <h1 className="text-center font-semibold pt-5 text-6xl mt-3 underline decoration-[#FCE38A]">Subjects</h1>
-      <div className="grid grid-cols-3 max-w-6xl mx-auto gap-10 mt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-10 mt-20">
         {subjects.map((subject, index) => (
           <SubjectCard subject={subject} key={index} />
         ))}
