@@ -63,8 +63,8 @@ const Subject =()=>{
                     <Accordion examName='ETE' links={subjectFileLinks.ete} />
                 </div>
             ) : (
-                <div className='absolute left-1/2 w-fit -translate-x-1/2 -translate-y-1/2 mt-20 w-1/2 flex flex-col gap-12 text-4xl font-bold'>
-                    Bhai Sorry :(
+                <div className='absolute left-1/2  -translate-x-1/2 -translate-y-1/2 mt-20 w-3/4 flex flex-col gap-12 text-4xl font-bold text-center'>
+                    Bhai Sorry , {subjectName} main toh meri bi back thi. 😭
                 </div>
             )}
          </div>
